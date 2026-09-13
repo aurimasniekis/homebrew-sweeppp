@@ -1,11 +1,11 @@
 cask "sweeppp-nightly" do
   arch arm: "arm", intel: "intel"
 
-  version "0.1.0+e6f6f9f8"
-  sha256 arm:   "f2ec83644bb135a7c6730f5904c02865da44ba256c9ae907db967123921ac4f6",
-         intel: "72f5e409de86964d482ef24d53c9ee47774f9463ea5c453277c2b570025f5ea2"
+  version "0.1.0+834e2415"
+  sha256 arm:   "2aeecb23d38b9a850b37c11af1e51da5f92843e50474942e6ad4c19613e5c8d2",
+         intel: "1eebb418e0c2137b0219d375f9d741f7e85f5a59077c5322f30c002078a829b0"
 
-  url "https://github.com/aurimasniekis/sweeppp-dev/releases/download/nightly/sweeppp-nightly-macos-#{arch}.tar.gz?build=e6f6f9f8"
+  url "https://github.com/aurimasniekis/sweeppp-dev/releases/download/nightly/sweeppp-nightly-macos-#{arch}.tar.gz?build=834e2415"
   name "Sweep++ Nightly"
   desc "Wideband spectrum analyser for software-defined radios"
   homepage "https://sweeppp.app/"

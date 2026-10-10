@@ -1,9 +1,9 @@
 cask "sweeppp" do
   arch arm: "arm", intel: "intel"
 
-  version "0.1.0"
-  sha256 arm:   "5b51f4f78c46e5f06d2f3ed321161961afbe47ba3b8e6f1b7af4da0b3d26902f",
-         intel: "b2fb4e4c0c30443b6b3f2ef2684ae9c31cb9122e051c6bc7270a3f004116fb61"
+  version "0.2.0"
+  sha256 arm:   "2fb16d401ea19ee8f0026ff93f8e3da2ac8fa8229f6869d47db95026955b87e9",
+         intel: "613db71b76794d0171562059bd4ec89f122abfdac452c8b719e3b5935abaf639"
 
   url "https://github.com/aurimasniekis/sweeppp/releases/download/v#{version}/sweeppp-#{version}-macos-#{arch}.tar.gz"
   name "Sweep++"
